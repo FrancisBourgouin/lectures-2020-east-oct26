@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>W4D2</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,800&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <script src="konami.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Let's write a story!</h1>
+  </header>
+  <main class="content">
+    <p>Line by line, let's build a story. Add a new line!</p>
+    <form class="story">
+      <input type="text" id="new-list-item" value="Initial value" />
+      <button type="submit" id="add-new-item">Add it!</button>
+    </form>
+    <section class="list">
+      <h1>The story so far</h1>
+      <ul id="main-list">
+        <li>A little chicken</li>
+        <li>Dancing in the prairie</li>
+        <li>Quickly got sticky</li>
+      </ul>
+    </section>
+  </main>
+  <script>
+    const htmlTag = document.children[0]
+    const bodyTag = htmlTag.children[1]
+    const pageTitle = bodyTag.children[0]
+    console.log(pageTitle)
+
+
+    const h1List = document.getElementsByTagName('h1')
+    // getElementsByTagName
+    // getElementsByClassName
+    // getElementById
+    // Array.from(h1List).forEach(...)
+  </script>
+</body>
+
+</html>
