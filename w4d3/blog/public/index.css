@@ -1,0 +1,12 @@
+form{
+  border:1px solid black;
+  padding:0.5em;
+  display:flex;
+  flex-direction: column;
+  width:500px;
+  align-items: center;
+}
+input, textarea{
+  width:95%;
+  margin:0.5em 0;
+}
