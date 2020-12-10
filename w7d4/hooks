@@ -1,0 +1,47 @@
+useEffect(() => {
+  document.addEventListener('click', (event) => { console.log(event) })
+
+  return () => document.removeEventListener()...
+}, [])
+
+
+const AComponent = () => {
+  if ("it's the first time") {
+
+  }
+
+  const AComponent = () => {
+    if ("something important changed") {
+      document.addEventListener('click', (event) => { console.log(event) })
+    }
+
+    return <h1>I AM COMPONENT</h1>
+  }
+
+  const AComponent = () => {
+    useEffect(() => {
+      document.addEventListener('click', (event) => { console.log(event) })
+
+      // return () => document.removeEventListener()...
+    }, [count])
+
+    useEffect(
+      () => whattorunconditionally
+        () => whattorunwhenweremoveit
+        [] what do you want to watch
+  )
+}
+
+
+const [weather, setWeather]
+const [potato, setPotato]
+
+useEffect(() => {
+  Axios.get('weatherthing')
+  setWeather
+
+  return () => Axios.stop
+}, [])
+
+
+setPotato
