@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.Gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Gallery article{
+  width:30vw;
+}
+.Gallery article img{
+  width:100%;
+  height:auto;
+}
+.Single img{
+  height:80vh;
+  width:auto;
+}
